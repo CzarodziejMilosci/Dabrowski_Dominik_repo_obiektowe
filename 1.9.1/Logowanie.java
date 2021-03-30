@@ -4,7 +4,7 @@
 		
 		public static void main(String [] args){
 			
-			LH = new LoginHaslo();
+			LoginHaslo LH = new LoginHaslo("kekW2137","qwerty");
 			
 		}
 	}
