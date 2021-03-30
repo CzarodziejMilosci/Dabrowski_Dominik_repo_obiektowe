@@ -1,7 +1,13 @@
 	
 	class LoginHaslo{
-		private String haslo = "kekW2137";
-		private String login = "qwerty";
+		private String haslo = "";
+		private String login = "";
+		private LoginHaslo(String haslo, String login){
+			this.haslo = haslo;
+			this.login
+			
+			
+		}
 		
 		
 		@override
