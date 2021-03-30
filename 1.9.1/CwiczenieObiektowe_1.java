@@ -3,8 +3,7 @@
 		static MojeDane mod;
 		
 		public static void main(String [] args){
-			mod = new MojeDane{};
-			
+			mod = new MojeDane("Dominik","Dabrowski","2PTN";
 			
 		}
 	}

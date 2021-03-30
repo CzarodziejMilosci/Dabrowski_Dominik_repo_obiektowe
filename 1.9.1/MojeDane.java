@@ -4,9 +4,10 @@
 		public String nazwisko = "";
 		public String klasa = "";
 		public MojeDane(String imie, String nazwisko, String klasa){
-			this.imie = Dominik;
-			this.nazwisko = Dabrowski;
-			this.klasa = 2PTN;
+			this.imie = imie;
+			this.nazwisko = nazwisko;
+			this.klasa = klasa;
+			System.out.println(+imie+" "+nazwisko+" "+klasa);
 			
 			
 		}
