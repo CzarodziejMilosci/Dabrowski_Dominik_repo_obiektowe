@@ -1,0 +1,11 @@
+class zad3{
+    
+    public static void main(String[] args){
+ 
+        System.out.println(lg);
+        
+        Kolo kolo = new Kolo(4);
+        kolo.pole_kola();
+        kolo.obwod_kola();
+    }
+}
