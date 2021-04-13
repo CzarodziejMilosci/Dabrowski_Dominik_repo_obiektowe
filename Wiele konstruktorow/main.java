@@ -7,7 +7,6 @@ class Main{
         System.out.println(o2);
         Osoba o3 = new Osoba("Maciej","Kolpaczek", 177, 99);
         System.out.println(o3);
-		trojkat tr = new trojkat
-		System.out.println(tr);
+		trojkat tr = new trojkat();
     }
 }
