@@ -6,13 +6,13 @@ class trojkat{
 		
 		
 		public trojkat(int wysokosc, int podstawa){
-			System.out.println(wysokosc*podstawa/2);
+			system.out.println(wysokosc*podstawa/2);
 			
 
 		}	
 		 public trojkat(int wysokosc, int podstawa, int c, int b){
-        System.out.println(wysokosc*podstawa/2);
-        System.out.println(c*b/2);
+        system.out.println(wysokosc*podstawa/2);
+        system.out.println(c*b/2);
     }
 }
 	}
@@ -29,3 +29,6 @@ class trojkat{
 ╲╱▔╲▂▂▂▂╱▔╲▂▂▂╱
  ▏╳▕▇▇▕ ▏╳▕▇▇▕
  ╲▂╱╲▂╱ ╲▂╱
+
+
+
