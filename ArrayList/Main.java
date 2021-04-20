@@ -1,25 +1,14 @@
-
-import java.utill.ArrayList;
+import java.util.ArrayList;
 
 class Main{
-    public static void main(String[] args){
-		int t[] = new int [10];
-		ArrayList<Integer> lista = new ArrayList<>();
-		
-		for int (i=0;i<10;i++){
-			t[1] = 1+10;
+	public static void main(String[] args){
+        Arrayvstab.arrayListvstab();
+        ArrayList<DaneOsobowe> listOfDaneOsobowe = new ArrayList<>();
+        DaneOsobowe do1 = new DaneOsobowe("Anna", "Kowalsjka", 19, 165, 60);
+        DaneOsobowe do2 = new DaneOsobowe("Karol", "Wisniewski", 23, 179, 85);
+        listOfDaneOsobowe.add(do1);
+        listOfDaneOsobowe.add(do2);
+        for(int i = 0;i<listOfDaneOsobowe.size();i++){
+            System.out.println(listOfDaneOsobowe.get(i)+"\n");
 		}
-		for int (i=0;i<10;i++){
-			lista.add(i+10);
-		}
-		System.out.println(litsa);
-		lista.add(100);
-		t[10] = 100;
-		
-		System.out.println(litsa);
-		lista.add(100);
-		for (int i=0;i<lista.size();i++){
-			System.out.println("Element: "+i+"+lista.get(i));
-		}
-	}
 }
